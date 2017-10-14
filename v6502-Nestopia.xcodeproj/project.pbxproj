@@ -335,6 +335,7 @@
 		94CB656118791A5400A19D7D /* NstBoardUnlN625092.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94CB655D18791A5400A19D7D /* NstBoardUnlN625092.cpp */; };
 		94E1860A187354470030F854 /* NESGameCore+NESFeatures.mm in Sources */ = {isa = PBXBuildFile; fileRef = 82F3642E0F51FB4A001495F6 /* NESGameCore+NESFeatures.mm */; };
 		C6D120F91711313900E868A8 /* OpenEmuBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D120F81711313900E868A8 /* OpenEmuBase.framework */; };
+		E6A2A5451F92BB85000A0997 /* libv6502.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A2A53B1F92BB6B000A0997 /* libv6502.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -351,6 +352,83 @@
 			proxyType = 1;
 			remoteGlobalIDString = 8D5B49AC048680CD000E48DA;
 			remoteInfo = Nestopia;
+		};
+		E6A2A52E1F92BB6B000A0997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6A2A51A1F92BB6B000A0997 /* v6502.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E64198E117373A5A00D0EE25;
+			remoteInfo = as6502;
+		};
+		E6A2A5301F92BB6B000A0997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6A2A51A1F92BB6B000A0997 /* v6502.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E6FB94AB1791140B0053EB7E;
+			remoteInfo = v6502;
+		};
+		E6A2A5321F92BB6B000A0997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6A2A51A1F92BB6B000A0997 /* v6502.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E640E21917DFDCC9009C0718;
+			remoteInfo = dis6502;
+		};
+		E6A2A5341F92BB6B000A0997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6A2A51A1F92BB6B000A0997 /* v6502.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E640F6D9182D95B600A4C6A5;
+			remoteInfo = ld6502;
+		};
+		E6A2A5361F92BB6B000A0997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6A2A51A1F92BB6B000A0997 /* v6502.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E6A306281B92F9F200B259E8;
+			remoteInfo = kmapgen;
+		};
+		E6A2A5381F92BB6B000A0997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6A2A51A1F92BB6B000A0997 /* v6502.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E6DCD5221A56A7DE002008BE;
+			remoteInfo = tests;
+		};
+		E6A2A53A1F92BB6B000A0997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6A2A51A1F92BB6B000A0997 /* v6502.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E638A4911B8AAA2300B71420;
+			remoteInfo = libv6502;
+		};
+		E6A2A53C1F92BB6B000A0997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6A2A51A1F92BB6B000A0997 /* v6502.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E638A49E1B8AAA6300B71420;
+			remoteInfo = libas6502;
+		};
+		E6A2A53E1F92BB6B000A0997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6A2A51A1F92BB6B000A0997 /* v6502.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E638A4AC1B8AAA7800B71420;
+			remoteInfo = libld6502;
+		};
+		E6A2A5401F92BB6B000A0997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6A2A51A1F92BB6B000A0997 /* v6502.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E638A4C81B8AAABC00B71420;
+			remoteInfo = libdis6502;
+		};
+		E6A2A5421F92BB79000A0997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6A2A51A1F92BB6B000A0997 /* v6502.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E638A4901B8AAA2300B71420;
+			remoteInfo = libv6502;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -1015,6 +1093,7 @@
 		C6B3E692136525EB00D34947 /* OENESSystemResponderClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OENESSystemResponderClient.h; path = ../OpenEmu/NES/OENESSystemResponderClient.h; sourceTree = "<group>"; };
 		C6D120F81711313900E868A8 /* OpenEmuBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEmuBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		E6A2A51A1F92BB6B000A0997 /* v6502.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = v6502.xcodeproj; path = v6502/v6502.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1022,6 +1101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6A2A5451F92BB85000A0997 /* libv6502.a in Frameworks */,
 				3D60316214DF7D0B00E9AF58 /* libz.dylib in Frameworks */,
 				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
 				C6D120F91711313900E868A8 /* OpenEmuBase.framework in Frameworks */,
@@ -1040,6 +1120,7 @@
 				089C167CFE841241C02AAC07 /* Resources */,
 				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
 				19C28FB8FE9D52D311CA2CBB /* Products */,
+				E6A2A5441F92BB85000A0997 /* Frameworks */,
 			);
 			name = Nestopia;
 			sourceTree = "<group>";
@@ -1048,6 +1129,7 @@
 		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				E6A2A51A1F92BB6B000A0997 /* v6502.xcodeproj */,
 				C6D120F81711313900E868A8 /* OpenEmuBase.framework */,
 				3D6030E914DF715100E9AF58 /* libz.dylib */,
 				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
@@ -1803,6 +1885,30 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		E6A2A51B1F92BB6B000A0997 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6A2A52F1F92BB6B000A0997 /* as6502 */,
+				E6A2A5311F92BB6B000A0997 /* v6502 */,
+				E6A2A5331F92BB6B000A0997 /* dis6502 */,
+				E6A2A5351F92BB6B000A0997 /* ld6502 */,
+				E6A2A5371F92BB6B000A0997 /* kmapgen */,
+				E6A2A5391F92BB6B000A0997 /* tests */,
+				E6A2A53B1F92BB6B000A0997 /* libv6502.a */,
+				E6A2A53D1F92BB6B000A0997 /* libas6502.a */,
+				E6A2A53F1F92BB6B000A0997 /* libld6502.a */,
+				E6A2A5411F92BB6B000A0997 /* libdis6502.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6A2A5441F92BB85000A0997 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1818,6 +1924,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				E6A2A5431F92BB79000A0997 /* PBXTargetDependency */,
 			);
 			name = "v6502-Nestopia";
 			productInstallPath = "$(HOME)/Library/Bundles";
@@ -1834,7 +1941,7 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 0700;
 			};
-			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "Nestopia" */;
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "v6502-Nestopia" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -1846,6 +1953,12 @@
 			);
 			mainGroup = 089C166AFE841209C02AAC07 /* Nestopia */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E6A2A51B1F92BB6B000A0997 /* Products */;
+					ProjectRef = E6A2A51A1F92BB6B000A0997 /* v6502.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8D5B49AC048680CD000E48DA /* v6502-Nestopia */,
@@ -1854,6 +1967,79 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E6A2A52F1F92BB6B000A0997 /* as6502 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = as6502;
+			remoteRef = E6A2A52E1F92BB6B000A0997 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E6A2A5311F92BB6B000A0997 /* v6502 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = v6502;
+			remoteRef = E6A2A5301F92BB6B000A0997 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E6A2A5331F92BB6B000A0997 /* dis6502 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = dis6502;
+			remoteRef = E6A2A5321F92BB6B000A0997 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E6A2A5351F92BB6B000A0997 /* ld6502 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = ld6502;
+			remoteRef = E6A2A5341F92BB6B000A0997 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E6A2A5371F92BB6B000A0997 /* kmapgen */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = kmapgen;
+			remoteRef = E6A2A5361F92BB6B000A0997 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E6A2A5391F92BB6B000A0997 /* tests */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = tests;
+			remoteRef = E6A2A5381F92BB6B000A0997 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E6A2A53B1F92BB6B000A0997 /* libv6502.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libv6502.a;
+			remoteRef = E6A2A53A1F92BB6B000A0997 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E6A2A53D1F92BB6B000A0997 /* libas6502.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libas6502.a;
+			remoteRef = E6A2A53C1F92BB6B000A0997 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E6A2A53F1F92BB6B000A0997 /* libld6502.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libld6502.a;
+			remoteRef = E6A2A53E1F92BB6B000A0997 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E6A2A5411F92BB6B000A0997 /* libdis6502.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libdis6502.a;
+			remoteRef = E6A2A5401F92BB6B000A0997 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8D5B49AF048680CD000E48DA /* Resources */ = {
@@ -2212,6 +2398,11 @@
 			target = 8D5B49AC048680CD000E48DA /* v6502-Nestopia */;
 			targetProxy = 82D814EA0F1D81D300EF8CF5 /* PBXContainerItemProxy */;
 		};
+		E6A2A5431F92BB79000A0997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libv6502;
+			targetProxy = E6A2A5421F92BB79000A0997 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -2377,7 +2568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "Nestopia" */ = {
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "v6502-Nestopia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB913F08733D840010E9CD /* Debug */,
