@@ -989,7 +989,7 @@
 		82C5EDE60F0C4CE70019E2DC /* NstApiRam.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NstApiRam.cpp; sourceTree = "<group>"; };
 		82F3642E0F51FB4A001495F6 /* NESGameCore+NESFeatures.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NESGameCore+NESFeatures.mm"; sourceTree = "<group>"; };
 		82F45ED70E887EAF00B7B023 /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
-		8D5B49B6048680CD000E48DA /* Nestopia.oecoreplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nestopia.oecoreplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B6048680CD000E48DA /* v6502-Nestopia.oecoreplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "v6502-Nestopia.oecoreplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		942597D2151470A40074E3A3 /* OpenEmuBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenEmuBase.framework; path = ../OpenEmu/build/Release/OpenEmuBase.framework; sourceTree = "<group>"; };
 		946C18A91714895200C64BF9 /* OEFDSSystemResponderClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OEFDSSystemResponderClient.h; path = "../OpenEmu/Nintendo FDS/OEFDSSystemResponderClient.h"; sourceTree = "<group>"; };
@@ -1105,7 +1105,7 @@
 		19C28FB8FE9D52D311CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D5B49B6048680CD000E48DA /* Nestopia.oecoreplugin */,
+				8D5B49B6048680CD000E48DA /* v6502-Nestopia.oecoreplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1806,9 +1806,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D5B49AC048680CD000E48DA /* Nestopia */ = {
+		8D5B49AC048680CD000E48DA /* v6502-Nestopia */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "Nestopia" */;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "v6502-Nestopia" */;
 			buildPhases = (
 				8D5B49AF048680CD000E48DA /* Resources */,
 				8D5B49B1048680CD000E48DA /* Sources */,
@@ -1819,10 +1819,10 @@
 			);
 			dependencies = (
 			);
-			name = Nestopia;
+			name = "v6502-Nestopia";
 			productInstallPath = "$(HOME)/Library/Bundles";
 			productName = Nestopia;
-			productReference = 8D5B49B6048680CD000E48DA /* Nestopia.oecoreplugin */;
+			productReference = 8D5B49B6048680CD000E48DA /* v6502-Nestopia.oecoreplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -1848,7 +1848,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D5B49AC048680CD000E48DA /* Nestopia */,
+				8D5B49AC048680CD000E48DA /* v6502-Nestopia */,
 				82D814E50F1D81BE00EF8CF5 /* Build & Install Nestopia */,
 				82C9CA620F0846D40071460B /* Distribution */,
 			);
@@ -2204,12 +2204,12 @@
 /* Begin PBXTargetDependency section */
 		82C9CA660F0846DA0071460B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8D5B49AC048680CD000E48DA /* Nestopia */;
+			target = 8D5B49AC048680CD000E48DA /* v6502-Nestopia */;
 			targetProxy = 82C9CA650F0846DA0071460B /* PBXContainerItemProxy */;
 		};
 		82D814EB0F1D81D300EF8CF5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8D5B49AC048680CD000E48DA /* Nestopia */;
+			target = 8D5B49AC048680CD000E48DA /* v6502-Nestopia */;
 			targetProxy = 82D814EA0F1D81D300EF8CF5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -2240,8 +2240,8 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "\"$(USER_LIBRARY_DIR)/Application Support/OpenEmu/Cores\"";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.openemu.${PRODUCT_NAME:identifier}";
-				PRODUCT_NAME = Nestopia;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.openemu.v6502-Nestopia";
+				PRODUCT_NAME = "v6502-Nestopia";
 				SKIP_INSTALL = YES;
 				WARNING_CFLAGS = "-Wno-switch-enum";
 				WRAPPER_EXTENSION = oecoreplugin;
@@ -2262,8 +2262,8 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "\"$(USER_LIBRARY_DIR)/Application Support/OpenEmu/Cores\"";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.openemu.${PRODUCT_NAME:identifier}";
-				PRODUCT_NAME = Nestopia;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.openemu.v6502-Nestopia";
+				PRODUCT_NAME = "v6502-Nestopia";
 				SKIP_INSTALL = YES;
 				WARNING_CFLAGS = "-Wno-switch-enum";
 				WRAPPER_EXTENSION = oecoreplugin;
@@ -2368,7 +2368,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "Nestopia" */ = {
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "v6502-Nestopia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB913B08733D840010E9CD /* Debug */,
